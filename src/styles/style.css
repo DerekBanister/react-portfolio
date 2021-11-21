@@ -1,0 +1,27 @@
+* {
+    font-family: 'Crimson Text', serif;
+    margin: 3px;
+  }
+  body {
+    background-color: rgb(243, 107, 107);
+  }
+  .card {
+      height: 400px;
+      width: 400px;
+      margin: 10px;
+      border: none;
+  }
+.card-columns {
+    display: flex;
+
+  }
+  .card-title {
+    text-align: center;
+  }
+  .duck {
+    border-bottom: solid black 2px;
+  }
+  .card-deck {
+    margin: 10px;
+    justify-content: center;
+}
