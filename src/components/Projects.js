@@ -1,12 +1,20 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
+import tvremote from "../images/popcorn1.gif"
+import dungrunner from "../images/dungrunner.gif"
+import ttb from "../images/ttb1.png"
 
 const styles = {
     cardDeck: {
         margin: "10px",
         display: "flex",
         justifyContent: "center"
+    },
+    images: {
+        width: "90%",
+        height: "30vh",
+        objectFit: "cover"
     }
 }
 
@@ -19,6 +27,7 @@ function Projects() {
                     <a class="card-text" href="https://github.com/DerekBanister/tvremote" target="_blank">
                         Github
                         Repo</a>
+                    <img style={styles.images} src={tvremote} alt="project1" class="card-img-top" />
                     {/* add project link here */}
                 </div>
             </div>
@@ -29,6 +38,7 @@ function Projects() {
                         Github
                         Repo</a>
                     {/* add project link here */}
+                    <img style={styles.images} src={ttb} alt="TechBlog" class="card-img-top" />
                 </div>
             </div>
             <div class="card">
@@ -38,6 +48,7 @@ function Projects() {
                         Github
                         Repo</a>
                     {/* add project link here */}
+                    <img style={styles.images} src={dungrunner} alt="DungRunner" class="card-img-top" />
                 </div>
             </div>
         </div>

@@ -1,9 +1,12 @@
 * {
     font-family: 'Crimson Text', serif;
-    margin: 3px;
+    margin: 1px;
+    color: white;
   }
   body {
-    background-color: rgb(243, 107, 107);
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .card {
       display: inline-flex;
@@ -13,6 +16,7 @@
       width: 400px;
       margin: 10px;
       border: none;
+      background-color: black;
       
   }
 .card-columns {
@@ -33,3 +37,13 @@
     margin: 10px;
     justify-content: center;
 } */
+@media only screen and (max-width: 900px) {
+  .card-columns {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1200px) {
+.aboutme {
+  font-size: 22px;
+}
+}

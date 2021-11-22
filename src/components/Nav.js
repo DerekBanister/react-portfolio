@@ -6,6 +6,7 @@ import '../styles/style.css';
 
 const styles = {
     name: {
+        color: "white",
         padding: "5px",
         marginBottom: "0px",
         marginTop: "0px",
@@ -14,9 +15,10 @@ const styles = {
         fontSize: "15px",
         padding: "0px",
         opacity: "0.9",
-        color: "black",
+        color: "white",
         textDecoration: "underline",
         fontWeight: "bold",
+        justifyContent: "right",
     },
     aspire: {
         fontStyle: "italic",
@@ -31,7 +33,7 @@ function Navbar() {
     return (
         <div style={styles.name} class="navbar navbar-light">
             <h1 class="duck">
-                <span id="derek">Derek Banister</span>
+                <span>Derek Banister</span>
                 <small style={styles.aspire}>Full Stack Web Developer</small>
             </h1>
             <a href={url} target="_blank" style={styles.links}>LinkedIn</a>
