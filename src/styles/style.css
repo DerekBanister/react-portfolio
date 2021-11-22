@@ -6,14 +6,22 @@
     background-color: rgb(243, 107, 107);
   }
   .card {
+      display: inline-flex;
+      text-align: center;
+      justify-content: center;
       height: 400px;
       width: 400px;
       margin: 10px;
       border: none;
+      
   }
 .card-columns {
     display: flex;
-
+    justify-content: center;
+  }
+  .hide-card {
+    text-align: center;
+    border: none;
   }
   .card-title {
     text-align: center;
@@ -21,7 +29,7 @@
   .duck {
     border-bottom: solid black 2px;
   }
-  .card-deck {
+  /* .card-deck {
     margin: 10px;
     justify-content: center;
-}
+} */
