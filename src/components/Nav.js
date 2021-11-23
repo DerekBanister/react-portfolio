@@ -4,42 +4,47 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/style.css';
 
-const styles = {
-    name: {
-        color: "white",
-        padding: "5px",
-        marginBottom: "0px",
-        marginTop: "0px",
-    },
-    links: {
-        fontSize: "15px",
-        padding: "0px",
-        opacity: "0.9",
-        color: "white",
-        textDecoration: "underline",
-        fontWeight: "bold",
-        justifyContent: "right",
-    },
-    aspire: {
-        fontStyle: "italic",
-        opacity: "0.8",
-        fontSize: "20px",
-    }
-}
-
-function Navbar() {
-    let url = "https://www.linkedin.com/in/derek-banister/"
-    let url2 = "https://github.com/DerekBanister"
+function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <div style={styles.name} class="navbar navbar-light">
-            <h1 class="duck">
-                <span>Derek Banister</span>
-                <small style={styles.aspire}>Full Stack Web Developer</small>
-            </h1>
-            <a href={url} target="_blank" style={styles.links}>LinkedIn</a>
-            <a href={url2} target="_blank" style={styles.links}>Github</a>
-        </div>
-    )
+        <ul className="nav nav-tabs">
+            <li className="nav-item">
+                <a
+                    href="#home"
+                    onClick={() => handlePageChange('Home')}
+                    className={currentPage === 'Techs' ? 'nav-link active' : 'nav-link'}
+                >
+                    About
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
+                    href="#techs"
+                    onClick={() => handlePageChange('Techs')}
+                    className={currentPage === 'Techs' ? 'nav-link active' : 'nav-link'}
+                >
+                    My skillset
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
+                    href="#projects"
+                    onClick={() => handlePageChange('Projects')}
+                    className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                >
+                    Projects
+                </a>
+            </li>
+            <li className="nav-item">
+                <a
+                    href="#contact"
+                    onClick={() => handlePageChange('Contact')}
+                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                >
+                    Contact
+                </a>
+            </li>
+        </ul>
+    );
 }
 
-export default Navbar;
+export default NavTabs;
