@@ -4,7 +4,9 @@ import '../styles/style.css';
 import tvremote from "../images/popcorn1.gif"
 import dungrunner from "../images/dungrunner.gif"
 import ttb from "../images/ttb1.png"
-
+import weather from "../images/weathergif.gif"
+import fit from "../images/fittrack.gif"
+import bt from "../images/bt.gif"
 const styles = {
     cardDeck: {
         margin: "10px",
@@ -49,6 +51,36 @@ function Projects() {
                         Repo</a>
                     {/* add project link here */}
                     <img style={styles.images} src={dungrunner} alt="DungRunner" class="card-img-top" />
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Weather Dashboard</h2>
+                    <a class="card-text" href="https://github.com/DerekBanister/weather-dashboard" target="_blank">
+                        Github
+                        Repo</a>
+                    {/* add project link here */}
+                    <img style={styles.images} src={weather} alt="weather" class="card-img-top" />
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">NoSQL Workout-Tracker</h2>
+                    <a class="card-text" href="https://github.com/DerekBanister/NoSQL-Workout-Tracker" target="_blank">
+                        Github
+                        Repo</a>
+                    {/* add project link here */}
+                    <img style={styles.images} src={fit} alt="weather" class="card-img-top" />
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Budget Tracker</h2>
+                    <a class="card-text" href="https://github.com/DerekBanister/NoSQL-Workout-Tracker" target="_blank">
+                        Github
+                        Repo</a>
+                    {/* add project link here */}
+                    <img style={styles.images} src={bt} alt="budgettracker" class="card-img-top" />
                 </div>
             </div>
         </div>
