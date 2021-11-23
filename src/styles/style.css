@@ -31,7 +31,13 @@
     text-align: center;
   }
   .duck {
-    border-bottom: solid black 2px;
+    margin: auto;
+    font-size: 40px
+  }
+  .aspire {
+    font-style: italic;
+      opacity: 0.8;
+      font-size: 20px;
   }
   /* .card-deck {
     margin: 10px;
@@ -46,4 +52,9 @@
 .aboutme {
   font-size: 22px;
 }
+}
+@media only screen and (max-width: 900px) {
+  .card {
+    display: block;
+  }
 }

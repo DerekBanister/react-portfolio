@@ -6,14 +6,19 @@ import '../styles/style.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
+
         <ul className="nav nav-tabs">
-            <li className="nav-item">
+            <h1 class="duck">
+                <span id="derek">Derek Banister</span>
+                <small class="text-light aspire">Full Stack Web Developer</small>
+            </h1>
+            <li className="nav-item ">
                 <a
                     href="#home"
                     onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Techs' ? 'nav-link active' : 'nav-link'}
                 >
-                    About
+                    Home
                 </a>
             </li>
             <li className="nav-item">
@@ -22,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     onClick={() => handlePageChange('Techs')}
                     className={currentPage === 'Techs' ? 'nav-link active' : 'nav-link'}
                 >
-                    My skillset
+                    My Skills
                 </a>
             </li>
             <li className="nav-item">
