@@ -15,7 +15,6 @@ const styles = {
     images: {
         width: "90%",
         height: "20vh",
-
     }
 }
 
