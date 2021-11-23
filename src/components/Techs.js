@@ -10,7 +10,7 @@ import react from "../images/react.png"
 
 const styles = {
     techs: {
-        height: "230px",
+        height: "300px",
     },
     images: {
         width: "90%",

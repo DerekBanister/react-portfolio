@@ -4,8 +4,8 @@
     color: white;
   }
   body {
-    background-image: url(../images/background.jpg);
-    background-size: cover;
+    background-image: url(../images/background4.jpg);
+    
     background-repeat: no-repeat;
   }
   .card {
@@ -46,12 +46,26 @@
 .form {
   margin: 20px;
 }
-
+.icon {
+  display: block;
+  padding: 0px;
+  height: 20px;
+  
+}
+.email {
+  color: white;
+}
 .form input {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8rem; 
 }
 
 @media only screen and (max-width: 900px) {
@@ -72,5 +86,10 @@
 @media only screen and (max-width: 900px) {
   .card-deck {
     display: block;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .footer {
+    height: 0rem;
   }
 }

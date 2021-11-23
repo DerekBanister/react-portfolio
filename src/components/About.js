@@ -18,10 +18,10 @@ const styles = {
 }
 function About() {
     return (
-        <div class="container" id="techs">
+        <div class="container">
             <div class="card-columns">
                 <div class="card hide-card">
-                    <div class="card-block hide-card justify-content-center techs">
+                    <div class="card-block hide-card justify-content-center">
                         <img src={me} class="card-img-top db" style={styles.db} alt="Me"></img>
                     </div>
                 </div>

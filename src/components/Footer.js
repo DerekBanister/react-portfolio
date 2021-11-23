@@ -7,9 +7,16 @@ import { GrGithub } from 'react-icons/gr';
 
 function Footer() {
     return (
-        <div class="footer">
-            <h1>< GrLinkedin /></h1>
-            <h1> <GrGithub /> </h1>
+        <div class="text-center footer text-dark" >
+
+            <a href="https://www.linkedin.com/in/derek-banister/" target="_blank" rel="noreferrer" class="icon">< GrLinkedin /></a>
+            <a href="https://github.com/DerekBanister" target="_blank" rel="noreferrer" class="icon"> <GrGithub /> </a>
+
+            <a href="images/resume.pdf" target="blank" class="button email" download>Download My Resume</a>
+            <br></br>
+            <a href="mailto: ptownderek@yahoo.com" class="email">Email: ptownderek@yahoo.com</a>
+            <br></br>
+            <a class="email">Phone: 925-998-9536</a>
         </div>
     )
 
