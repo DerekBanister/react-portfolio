@@ -4,6 +4,7 @@ import About from './About';
 import Techs from './Techs';
 import Projects from './Projects';
 import Contact from './Contact'
+import Footer from './Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -29,6 +30,7 @@ export default function PortfolioContainer() {
         <div>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
+            <Footer />
         </div>
     );
 }
