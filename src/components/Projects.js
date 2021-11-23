@@ -22,7 +22,8 @@ const styles = {
 
 function Projects() {
     return (
-        <div class="card-deck" style={styles.cardDeck}>
+        <div class="card-columns">
+            {/* <div class="card-deck" style={styles.cardDeck}> */}
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title">TV Remote</h2>
@@ -84,6 +85,8 @@ function Projects() {
                 </div>
             </div>
         </div>
+        // </div >
+
     )
 }
 

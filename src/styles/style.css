@@ -69,3 +69,8 @@
     display: block;
   }
 }
+@media only screen and (max-width: 900px) {
+  .card-deck {
+    display: block;
+  }
+}
