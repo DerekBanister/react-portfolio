@@ -2,7 +2,7 @@
 
 **This website is my fourth portfolio made in the UC Berkeley Extension Full Stack Coding Bootcamp and my first project in React.Js.** 
 
-![React Portfolio](./src/images/reactport.png) 
+![React Portfolio](./src/images/reactport.PNG) 
 
 
 ## Built With
