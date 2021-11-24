@@ -4,15 +4,9 @@ import me from "../images/me.jpg"
 import '../styles/style.css';
 
 const styles = {
-    techs: {
-        height: "80px",
-    },
-    aboutme: {
-
-    },
     db: {
         borderRadius: "50%",
-        width: "390px",
+        width: "400px",
         height: "380px",
     }
 }
