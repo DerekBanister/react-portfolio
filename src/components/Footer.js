@@ -13,7 +13,7 @@ function Footer() {
             <a href="https://github.com/DerekBanister" target="_blank" rel="noreferrer" class="icon"> <GrGithub /> </a>
             {/* <a href="../images/DereksResume.pdf" target="_blank" class="button email">Download My Resume</a> */}
 
-            <a href="../images/resume.pdf" class="button email" download>Download My Resume</a>
+            <a href="../../public/resume/resume.pdf" class="button email" download>Download My Resume</a>
         </div>
     )
 
